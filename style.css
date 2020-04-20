@@ -23,3 +23,11 @@
 #question-header + div {
   display: none !important;
 }
+
+.answer:nth-of-type(2) {
+  border: 5px solid darkgreen !important;
+  border-radius: 5px;
+  padding: 10px !important;
+  padding-bottom: 0px !important;
+  margin-bottom: 25px !important;
+}
