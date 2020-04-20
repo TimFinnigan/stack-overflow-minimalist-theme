@@ -1,10 +1,20 @@
+#sidebar,
 .left-sidebar,
-#sidebar {
+.js-filter-btn {
   visibility: hidden;
 }
 
 .comment,
 .mb0,
-.everyonelovesstackoverflow {
+.js-products-menu,
+.answers-subheader,
+.everyonelovesstackoverflow,
+.post-taglist,
+.js-add-link,
+.js-post-issue,
+.site-footer--container,
+.s-btn__primary,
+#search + ol,
+#question-header + div {
   display: none !important;
 }
