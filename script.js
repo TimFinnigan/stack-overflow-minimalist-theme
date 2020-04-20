@@ -1,3 +1,1 @@
-$(document).ready(function() {
- 
-});
+document.querySelector(".js-filter-btn a:nth-child(3)").click();

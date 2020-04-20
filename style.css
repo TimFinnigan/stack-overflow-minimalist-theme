@@ -1,7 +1,10 @@
-.left-sidebar, #sidebar {
-    visibility: hidden;
+.left-sidebar,
+#sidebar {
+  visibility: hidden;
 }
 
-.comment, .mb0, .everyonelovesstackoverflow  {
-    display: none !important;
+.comment,
+.mb0,
+.everyonelovesstackoverflow {
+  display: none !important;
 }
