@@ -12,5 +12,15 @@
   },
   "permissions": [
     ""
+  ],
+  "content_scripts": [
+    {
+      "css": [
+        "style.css"
+      ],
+      "matches": [
+        "https://stackoverflow.com/questions*"
+      ]
+    }
   ]
 }
