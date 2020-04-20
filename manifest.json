@@ -10,9 +10,6 @@
   "browser_action": {
     "default_icon": "icon_16.png"
   },
-  "permissions": [
-    ""
-  ],
   "content_scripts": [
     {
       "css": [

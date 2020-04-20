@@ -17,6 +17,8 @@
 .js-post-issue,
 .site-footer--container,
 .s-btn__primary,
+.bottom-notice,
+#post-form,
 #search + ol,
 #question-header + div {
   display: none !important;

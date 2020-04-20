@@ -1,6 +1,3 @@
-// document.querySelector(".js-filter-btn a:nth-child(3)").click();
-// document.getElementsByClassName(".answers-subheader")[0].style.display = 'none';
-
 // Hide answers below threshold
 let votes = document.getElementsByClassName("js-vote-count");
 
@@ -8,7 +5,7 @@ let votes = document.getElementsByClassName("js-vote-count");
 for (let i = 1; i < votes.length; i++) {
   let element = votes[i];
   let voteCount = parseInt(element.getAttribute("data-value"));
-  if (voteCount < 2) {
+  if (voteCount < 1) {
     let num = i + 2;
     let result = document.querySelector(".answer:nth-of-type(" + num + ")");
     if (result) {
